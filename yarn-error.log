@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/Cellar/node/12.8.0/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js
+
+PATH: 
+  /Users/startupbuilder/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^34.0.1",
+      "react": "16.8.3",
+      "react-dom": "^16.8.6",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+      "react-native-web": "^0.11.4"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^6.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
